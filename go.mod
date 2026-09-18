@@ -1,3 +1,3 @@
-module github.com/senficode/stuck-json
+module github.com/s7ukk/stuck-json
 
 go 1.22

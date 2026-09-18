@@ -3,9 +3,9 @@
 > **Fast, Ergonomic, Zero-Boilerplate JSON Toolkit for Go 1.22+**  
 > Высокопроизводительная библиотека для Go, объединяющая декодирование на дженериках, быструю валидацию по тегам, автоматическую подстановку значений по умолчанию (defaults) и безопасный биндинг HTTP-запросов.
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/senficode/stuck-json.svg)](https://pkg.go.dev/github.com/senficode/stuck-json)
+[![Go Reference](https://pkg.go.dev/badge/github.com/s7ukk/stuck-json.svg)](https://pkg.go.dev/github.com/s7ukk/stuck-json)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Go Report Card](https://goreportcard.com/badge/github.com/senficode/stuck-json)](https://goreportcard.com/report/github.com/senficode/stuck-json)
+[![Go Report Card](https://goreportcard.com/badge/github.com/s7ukk/stuck-json)](https://goreportcard.com/report/github.com/s7ukk/stuck-json)
 
 ---
 
@@ -25,7 +25,7 @@
 ## Установка
 
 ```bash
-go get github.com/senficode/stuck-json
+go get github.com/s7ukk/stuck-json
 ```
 
 Для сборки и запуска тестов:
@@ -46,7 +46,7 @@ package main
 
 import (
 	"net/http"
-	stuckjson "github.com/senficode/stuck-json"
+	stuckjson "github.com/s7ukk/stuck-json"
 )
 
 type RegisterRequest struct {

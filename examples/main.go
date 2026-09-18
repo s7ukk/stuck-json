@@ -5,7 +5,7 @@ import (
 	"log"
 	"net/http"
 
-	stuckjson "github.com/senficode/stuck-json"
+	stuckjson "github.com/s7ukk/stuck-json"
 )
 
 // CreateProductRequest defines the payload for creating a new product.
